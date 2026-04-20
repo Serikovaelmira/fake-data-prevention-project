@@ -34,7 +34,7 @@ fake-data-prevention/
 │   │       ├── Certificates.tsx       # X.509 certificate parser
 │   │       ├── Encryption.tsx         # AES-GCM + RSA-OAEP demo
 │   │       ├── JWT.tsx                # JWT create/verify/tamper demo
-│   │       └── Report.tsx             # Full academic report
+│   │                 
 │   └── api/                           # Hono API (Cloudflare Workers)
 ├── design.md                          # Design system documentation
 ├── package.json
@@ -119,36 +119,7 @@ jwtVerify(token, secret)
 
 ---
 
-##  Research Report
 
-The full academic report is available in the app under the **Report** tab, covering:
-
-1. Abstract
-2. Introduction & Threat Model
-3. Digital Signatures (RSA-PSS, ECDSA — full algorithms)
-4. X.509 Certificates & PKI
-5. Encryption (AES-GCM, RSA-OAEP)
-6. JSON Web Tokens
-7. Comparison & Practical Applications (TLS 1.3)
-8. Limitations (Quantum threat, Key management)
-9. Conclusion
-10. References 
-
----
-
-##  References
-
-1. NIST FIPS 186-5 (2023) — Digital Signature Standard
-2. RFC 3447 — RSA Cryptography Specifications v2.1
-3. RFC 5280 — X.509 PKI Certificate Profile
-4. RFC 7519 — JSON Web Token (JWT)
-5. RFC 7518 — JSON Web Algorithms (JWA)
-6. NIST SP 800-57 — Key Management Recommendations
-7. RFC 8446 — TLS 1.3
-8. W3C Web Cryptography API Specification
-9. OWASP JWT Security Cheat Sheet
-
----
 
 ## Author
 
