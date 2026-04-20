@@ -123,6 +123,5 @@ jwtVerify(token, secret)
 
 ## Author
 
-**Elmira Serikova** — System Security, Bachelor's in Computer Science  
-Course: System Security | Academic Year: 2025–2026
+**Elmira Serikova** 
 
